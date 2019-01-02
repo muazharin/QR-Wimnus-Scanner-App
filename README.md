@@ -1,0 +1,1 @@
+# QR-Wimnus-Scanner-App
