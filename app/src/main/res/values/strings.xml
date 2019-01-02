@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QR Wimnus Scanner</string>
+    <string name="ip_hint_tex">Masukkan Nomor IP</string>
+    <string name="ip_hint_btn">Koneksikan</string>
+    <string name="tentang_item">About</string>
+    <string name="keluar_item">Exit</string>
+    <string name="powered_text">powered by codeXV</string>
+</resources>
