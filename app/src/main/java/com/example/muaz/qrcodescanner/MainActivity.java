@@ -120,9 +120,8 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
             if(grantResults[0] == PackageManager.PERMISSION_GRANTED){
                 generate();
             }else{
-                Toast.makeText(this, "camera permission denied", Toast.LENGTH_LONG).show();
-                finish();
-                startActivity(getIntent());
+                Toast.makeText(this, "Camera permission denied", Toast.LENGTH_LONG).show();
+                onBackPressed();
             }
         }
     }
