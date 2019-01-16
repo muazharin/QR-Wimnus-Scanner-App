@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -69,7 +70,10 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
                 })
                 .setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        //generate();
+//                        Intent startIntent = new Intent(MainActivity.this, StartActivity.class);
+//                        startActivity(startIntent);
+                        finish();
+                        startActivity(getIntent());
                     }
                 });
 
