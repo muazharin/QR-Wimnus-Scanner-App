@@ -3,7 +3,7 @@ package com.example.muaz.qrcodescanner;
 public class Konfigurasi {
 
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
-    public static final String URL_ADD="http://192.168.43.2/peserta/pesertaHadir.php";
+    public static final String URL_ADD="http://192.168.43.202:8080/peserta/pesertaHadir.php";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_PES_ID = "idPes";
